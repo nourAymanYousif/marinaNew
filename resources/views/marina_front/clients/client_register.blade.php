@@ -129,11 +129,11 @@
                                     <option value="">Please Select Nationality</option>
                                     <option value="egyptian">Egyptian</option>
                                     <option value="saudi">Saudi</option>
-                                    <option value="kuwait">Kuwait</option>
+                                    <option value="kuwait">Kuwaity</option>
                                 </select>
                                 @error('nationality')
                                 <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <strong>{{ $message }}</strong>  
                                     </span>
                                 @enderror
                             </div>
